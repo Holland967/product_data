@@ -1,0 +1,20 @@
+| Item                   | Value                          |
+|------------------------|--------------------------------|
+| **Rated Voltage**      | 220V-240V / 120V               |
+| **Rated Power**        | 200W / 200W                    |
+| **Rated Frequency**    | 50Hz-60Hz                      |
+| **Temperature**        | 75℃-85℃                      |
+| **Heating Time**       | 35 minutes                     |
+| **Control**            | Knob                           |
+| **Capacity**           | 2×2.5L                         |
+| **Size**               | 475×380×140                    |
+| **Plate Cover Material** | AS (Polystyrene)             |
+| **Plate Material**     | SUS430                         |
+| **Surface Material**   | SUS410                         |
+| **Bracket Material**   | Zinc Coated Steel              |
+| **Bottom Material**    | Zinc Coated Steel              |
+| **Handle Material**    | PP (Polypropylene)             |
+| **Control Box Material** | PP (Polypropylene)           |
+| **Indicator Light**    | PC (Polycarbonate)             |
+| **Knob Material**      | PC (Polycarbonate)             |
+| **Non-slip Mat**       | Silicone                       |

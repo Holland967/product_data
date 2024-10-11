@@ -1,12 +1,12 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from openai import OpenAI
 import streamlit as st
 import os
 
-load_dotenv()
+# load_dotenv()
 
-api_key = os.getenv("API_KEY")
-base_url = os.getenv("BASE_URL")
+# api_key = os.getenv("API_KEY")
+# base_url = os.getenv("BASE_URL")
 
 file_tree = {
     "Electric Deep Fryer": {
@@ -93,15 +93,7 @@ with col_3:
                 
                 messages = [{"role": "system", "content": system_prompt}] + st.session_state.msg
 
-                client = OpenAI(api_key=api_key, base_url=base_url)
-                response = client.chat.completions.create(
-                    model="Qwen/Qwen2.5-7B-Instruct",
-                    messages=messages,
-                    max_tokens=500,
-                    temperature=0.50,
-                    top_p=0.70,
-                    stream=True)
-                result = st.write_stream(chunk.choices[0].delta.content for chunk in response if chunk.choices[0].delta.content is not None)
+                result = st.write("暂时关闭AI服务")
 
                 st.session_state.msg.append({"role": "assistant", "content": result})
                 st.session_state.prompt = ""
